@@ -1,0 +1,7 @@
+name: Specbee Timezone  
+type: module  
+description: Dislay time based on user timezone.
+core_version_requirement: ^8 || ^9
+package: Custom
+dependencies:
+  - block

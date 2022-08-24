@@ -1,0 +1,13 @@
+<?php
+
+function specbee_timezone_theme($existing, $type, $theme, $path) {
+  return array('specbee_timezone' =>                  // this is the name of the template
+           array(
+            'variables' => array(
+                'country' => null,
+                'city' => null,
+                'date' => null
+            ),
+        )
+    );
+}
